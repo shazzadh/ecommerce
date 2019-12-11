@@ -1,0 +1,53 @@
+<div class="card">
+                                <a href="product-detail.html"><img src="img/product01.jpg" class="card-img-top" alt="Product01 Image"></a>
+                                <div class="card-body">
+                                    <h5 class="card-title">Clemence Blouse</h5>
+                                    <p class="card-text">$229.00</p>
+                                    <p class="card-text"><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="img/product02.jpg" class="card-img-top" alt="Product02 Image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Clemence Blouse</h5>
+                                    <p class="card-text">$229.00</p>
+                                    <p class="card-text"><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
+                                
+                            <div class="card">
+                                <img src="img/product03.jpg" class="card-img-top" alt="Product03 Image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Clemence Blouse</h5>
+                                    <p class="card-text">$229.00</p>
+                                    <p class="card-text"><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-sm-12">
+                        <div class="card-deck">
+                            <div class="card">
+                                <img src="img/product04.jpg" class="card-img-top" alt="Product04 Image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Clemence Blouse</h5>
+                                    <p class="card-text">$229.00</p>
+                                    <p class="card-text"><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="img/product05.jpg" class="card-img-top" alt="Product05 Image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Clemence Blouse</h5>
+                                    <p class="card-text">$229.00</p>
+                                    <p class="card-text"><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="img/product06.jpg" class="card-img-top" alt="Product06 Image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Clemence Blouse</h5>
+                                    <p class="card-text">$229.00</p>
+                                    <p class="card-text"><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></p>
+                                </div>
+                            </div>
