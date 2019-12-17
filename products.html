@@ -7,7 +7,11 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet" />
-
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
     <title>Products</title>
 
     <!-- Bootstrap core CSS -->
@@ -18,74 +22,206 @@
     <link rel="stylesheet" href="assets/css/tooplate-main.css" />
     <link rel="stylesheet" href="assets/css/owl.css" />
     <link rel="stylesheet" href="./assets/css/mod.css" />
+    <link rel="stylesheet" href="./assets/css/modules/products/main.css" />
+
+
 </head>
 
 <body>
+    <!--Markup for Breadcrumb-->
+
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <nav class="nav navbar-expand-lg navbar-dark static-top">
         <div class="container">
             <a class="navbar-brand" href="#"><img src="assets/images/header-logo.png" alt="" /></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="SignIn.html">Sign-In</a>
+                    </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="products.html">Products
-                <span class="sr-only">(current)</span>
-              </a>
+                        <a class="nav-link" href="signup.html">Sign-up</a>
+                        <span class="sr-only">(current)</span>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Registration</a>
+                        <a class="nav-link" href="about-us.html">About Us</a>
                     </li>
                 </ul>
             </div>
+
         </div>
     </nav>
-
-    <!-- Page Content -->
     <!-- Items Starts Here -->
-    <div class="featured-page">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="section-heading">
-                        <div class="line-dec"></div>
-                        <h1>Featured Items</h1>
+    <div id="breadcrumb">
+        <div class="container mt-5 border-bottom">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item pr-3"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item pr-3"><a href="products.html">Product</a></li>
+                    <li class="breadcrumb-item pr-3 active" aria-current="page">Shop</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+
+
+    <!--Markup for Content-->
+    <div>
+        <section id="content">
+            <div class="container">
+                <div class="row mb-3">
+                    <div class="col-sm-3 mt-4">
+                        <h3 class="pb-3">CATEGORIES</h3>
+                        <div class="product-category">
+                            <p class="category-border-color1"></p>
+                            <p class="category-border-color2"></p>
+                        </div>
+                    </div>
+                    <div class="col-sm-9">
+                        <div class="row">
+                            <div class="col-md-4">
+                            </div>
+                            <div class="col-md-4">
+
+                            </div>
+                            <div class="col-md-4">
+
+                            </div>
+
+                        </div>
                     </div>
                 </div>
-                <div class="col-12">
-                    <div id="filters" class="button-group">
-                        <button class="btn btn-primary" data-filter="*">
-                All Products
-              </button>
-                        <button class="btn btn-primary" data-filter=".new">Newest</button>
-                        <button class="btn btn-primary" data-filter=".low">
-                Low Price
-              </button>
-                        <button class="btn btn-primary" data-filter=".high">
-                Hight Price
-              </button>
-                    </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="accordion" id="myAccordion1">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h6 class="mb-0">
+                                    <a role="button" class="d-flex justify-content-between" href="#collapseOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <span>Shop</span>
+                                    </a>
+                                </h6>
+                            </div>
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#myAccordion">
+                                <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h6 class="mb-0">
+                                    <a role="button" class="d-flex justify-content-between" href="#collapseThree" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                        <span>Men</span>
+                                        <i class="fas fa-caret-down"></i>
+                                    </a>
+                                </h6>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#myAccordion1">
+                                <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h6 class="mb-0">
+                                    <a role="button" class="d-flex justify-content-between" href="#collapseTwo" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                        <span>Women</span>
+                                        <i class="fas fa-caret-down"></i>
+                                    </a>
+                                </h6>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#myAccordion1">
+                                <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingFour">
+                                <h6 class="mb-0">
+                                    <a role="button" class="d-flex justify-content-between" href="#collapseFour" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                        <span>Kids</span>
+                                        <i class="fas fa-caret-down"></i>
+                                    </a>
+                                </h6>
+                            </div>
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#myAccordion1">
+                                <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                                </div>
+                            </div>
+                        </div>
 
-                    <div class="featured container no-gutter">
+                    </div>
+                    <!-- List view -->
+                </div>
+                <div class="col-md-9">
+                    <div class="content-section">
+                        <!-- View Type -->
+                        <div class="col-sm-9" class="btn-group-product-control" role="group" aria-label="Basic example">
+                            <button type="button" onclick="changeView('list')" class="btn btn-secondary">List</button>
+                            <button type="button" onclick="changeView('grid')" class="btn btn-secondary">Grid</button>
+                        </div>
+                        <div id="list-view" class="col-12">
+                            <div class="single-product">
+                                <a href="single-product.html">
+                                    <img src="assets/images/Rose Theater/Rose Theater.jpg" alt="">
+                                    <div class="single-product_right-content">
+                                        <h4>Rose Theater</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus iusto in aliquam quaerat beatae ratione facere sit, quos ipsa! Rerum laborum magni alias accusantium laudantium debitis cumque assumenda ea.
+                                        </p>
+                                        <span><strong>$55</strong></span>
+                                </a>
+                                </div>
+                            </div>
+                            <div class="single-product">
+                                <img src="assets/images/Stone Breaker/Stone Breaker.jpg" alt="">
+                                <div class="single-product_right-content">
+                                    <h4>Stone Breaker</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus iusto in aliquam quaerat beatae ratione facere sit, quos ipsa! Rerum laborum magni alias accusantium laudantium debitis cumque assumenda ea.
+                                    </p>
+                                    <span><strong>$25</strong></span>
+
+                                </div>
+                            </div>
+                            <div class="single-product">
+                                <img src="assets/images/Lucy Lemon/Lucy Lemon.jpg" alt="">
+                                <div class="single-product_right-content">
+                                    <h4>Lucy Lemon</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus iusto in aliquam quaerat beatae ratione facere sit, quos ipsa! Rerum laborum magni alias accusantium laudantium debitis cumque assumenda ea.
+                                    </p>
+                                    <span><strong>$35</strong></span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!-- Grid -->
+                    <div id="grid-view" class="featured container no-gutter col-9">
                         <div class="row posts">
-                            <div id="1" class="item new col-md-4">
+                            <div id="one" class="item new col-md-4">
                                 <a href="single-product.html">
                                     <div class="featured-item">
                                         <img src="assets/images/Rose Theater/Rose Theater.jpg" width="240" height="150" alt="" />
                                         <h4>Rose Theater</h4>
                                         <h6>$55.00</h6>
-                                    </div>
                                 </a>
+                                </div>
                             </div>
-                            <div id="2" class="item high col-md-4">
+                            <div id="two" class="item high col-md-4">
                                 <a href="single-product.html">
                                     <div class="featured-item">
                                         <img src="assets/images/Stone Breaker/Stone Breaker.jpg" width="240" height="150" alt="" />
@@ -94,64 +230,64 @@
                                     </div>
                                 </a>
                             </div>
-                            <div id="3" class="item low col-md-4">
-                                <a href="single-product.html">
-                                    <div class="featured-item">
-                                        <img src="assets/images/Lucy Lemon/Lucy Lemon.jpg" width="240" height="150" alt="" />
+                            <div id="three " class=" item low col-md-4 ">
+                                <a href=" single-product.html ">
+                                    <div class=" featured-item ">
+                                        <img src=" assets/images/Lucy Lemon/Lucy Lemon.jpg " width=" 240 " height=" 150 " alt=" " />
                                         <h4>Lucy Lemon</h4>
                                         <h6>$35.00</h6>
                                     </div>
                                 </a>
                             </div>
-                            <div id="4" class="item low col-md-4">
-                                <a href="single-product.html">
-                                    <div class="featured-item">
-                                        <img src="assets/images/Glass/Alumni Queen.jpg" width="240" height="150" alt="" />
+                            <div id=" four " class=" item low col-md-4 ">
+                                <a href=" single-product.html ">
+                                    <div class=" featured-item ">
+                                        <img src=" assets/images/Glass/Alumni Queen.jpg " width=" 240 " height=" 150 " alt=" " />
                                         <h4>Alumni Queen</h4>
                                         <h6>$45.00</h6>
                                     </div>
                                 </a>
                             </div>
-                            <div id="5" class="item new high col-md-4">
-                                <a href="single-product.html">
-                                    <div class="featured-item">
-                                        <img src="assets/images/Glass/Cinder Bella.png" width="240" height="150" alt="" />
+                            <div id=" five " class=" item new high col-md-4 ">
+                                <a href=" single-product.html ">
+                                    <div class=" featured-item ">
+                                        <img src=" assets/images/Glass/Cinder Bella.png " width=" 240 " height=" 150 " alt=" " />
                                         <h4>Cinder Bella</h4>
                                         <h6>$55.00</h6>
                                     </div>
                                 </a>
                             </div>
-                            <div id="6" class="item new col-md-4">
-                                <a href="single-product.html">
-                                    <div class="featured-item">
-                                        <img src="assets/images/Glass/Diamond Mint.jpg" width="240" height="150" alt="" />
+                            <div id=" six " class=" item new col-md-4 ">
+                                <a href=" single-product.html ">
+                                    <div class=" featured-item ">
+                                        <img src=" assets/images/Glass/Diamond Mint.jpg " width=" 240 " height=" 150 " alt=" " />
                                         <h4>Diamond Mint</h4>
                                         <h6>$65.00</h6>
                                     </div>
                                 </a>
                             </div>
-                            <div id="7" class="item new high col-md-4">
-                                <a href="single-product.html">
-                                    <div class="featured-item">
-                                        <img src="assets/images/Glass/DressBerry.jpg" width="240" height="150" alt="" />
+                            <div id=" seven " class=" item new high col-md-4 ">
+                                <a href=" single-product.html ">
+                                    <div class=" featured-item ">
+                                        <img src=" assets/images/Glass/DressBerry.jpg " width=" 240 " height=" 150 " alt=" " />
                                         <h4>DressBerry</h4>
                                         <h6>$75.00</h6>
                                     </div>
                                 </a>
                             </div>
-                            <div id="8" class="item low new col-md-4">
-                                <a href="single-product.html">
-                                    <div class="featured-item">
-                                        <img src="assets/images/Glass/Olvin.jpg" width="240" height="150" alt="" />
+                            <div id=" eight " class=" item low new col-md-4 ">
+                                <a href=" single-product.html ">
+                                    <div class=" featured-item ">
+                                        <img src=" assets/images/Glass/Olvin.jpg " width=" 240 " height=" 150 " alt=" " />
                                         <h4>Olvin</h4>
                                         <h6>$85.00</h6>
                                     </div>
                                 </a>
                             </div>
-                            <div id="9" class="item new col-md-4">
-                                <a href="single-product.html">
-                                    <div class="featured-item">
-                                        <img src="assets/images/Rose Theater/Rose Theater.jpg" width="240" height="150" alt="" />
+                            <div id=" nine " class=" item new col-md-4 ">
+                                <a href=" single-product.html ">
+                                    <div class=" featured-item ">
+                                        <img src=" assets/images/Rose Theater/Rose Theater.jpg " width=" 240 " height=" 150 " alt=" " />
                                         <h4>Rose Theater</h4>
                                         <h6>$55.00</h6>
                                     </div>
@@ -159,106 +295,120 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="page-navigation">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <ul>
-                                        <li class="current-page"><a href="#">1</a></li>
-                                        <li><a href="#">2</a></li>
-                                        <li><a href="#">3</a></li>
-                                        <li>
-                                            <a href="#"><i class="fa fa-angle-right"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Featred Page Ends Here -->
-
-                    <!-- Footer Starts Here -->
-                    <div class="footer">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="logo">
-                                        <img src="assets/images/header-logo.png" alt="" />
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="footer-menu">
-                                        <ul>
-                                            <li><a href="#">Home</a></li>
-                                            <li><a href="#">Help</a></li>
-                                            <li><a href="#">Privacy Policy</a></li>
-                                            <li><a href="#">How It Works ?</a></li>
-                                            <li><a href="#">Contact Us</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="social-icons">
-                                        <ul>
-                                            <li>
-                                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="fa fa-linkedin"></i></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"><i class="fa fa-rss"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Footer Ends Here -->
-
-                    <!-- Sub Footer Starts Here -->
-                    <div class="sub-footer">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="copyright-text">
-                                        <p>
-                                            Copyright &copy; Shazzad Hossain - Design:
-                                            <a rel="nofollow" href="https://www.facebook.com/s.h.rana">Shazzad</a
-                >
-              </p>
+                </div>
             </div>
-          </div>
+    </div>
+    </div>
+
+
+    <!-- <div id=" filters " class=" button-group ">
+                        <button class=" btn btn-primary " data-filter=" * ">
+                All Products
+              </button>
+                        <button class=" btn btn-primary " data-filter=" .new ">Newest</button>
+                        <button class=" btn btn-primary " data-filter=" .low ">
+                Low Price
+              </button>
+                        <button class=" btn btn-primary " data-filter=" .high ">
+                Hight Price
+              </button>
+                    </div> -->
+
+
+
+
+    </div>
+    </div>
+    </div>
+    <!-- Featred Page Ends Here -->
+
+    <!-- Footer Starts Here -->
+    <div class=" footer ">
+        <div class=" container ">
+            <div class=" row ">
+                <div class=" col-md-12 ">
+                    <div class=" logo ">
+                        <a href="index.html"><img src=" assets/images/header-logo.png " width=" 300 " height=" 150 " alt=" " /></a>
+
+                    </div>
+                </div>
+                <div class=" col-md-12 ">
+                    <div class=" footer-menu ">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="https:\\www.google.com">Help</a></li>
+                            <li><a href=" # ">Privacy Policy</a></li>
+                            <li><a href=" # ">How It Works ?</a></li>
+                            <li><a href=" # ">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class=" col-md-12 ">
+                    <div class=" social-icons ">
+                        <ul>
+                            <li>
+                                <a href="https:\\www.facebook.com"><i class=" fa fa-facebook "></i></a>
+                            </li>
+                            <li>
+                                <a href="https:\\www.twitter.com"><i class=" fa fa-twitter "></i></a>
+                            </li>
+                            <li>
+                                <a href="https:\\www.linkedin.com"><i class=" fa fa-linkedin "></i></a>
+                            </li>
+                            <li>
+                                <a href=" # "><i class=" fa fa-rss "></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+    </div>
+    <!-- Footer Ends Here -->
+
+    <!-- Sub Footer Starts Here -->
+    <div class=" sub-footer ">
+        <div class=" container ">
+            <div class=" row ">
+                <div class=" col-md-12 ">
+                    <div class=" copyright-text ">
+                        <p>
+                            Copyright &copy; Shazzad Hossain - Design:
+                            <a rel=" nofollow " href=" https://www.facebook.com/s.h.rana ">Shazzad</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
     </div>
     <!-- Sub Footer Ends Here -->
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src=" vendor/jquery/jquery.min.js "></script>
+    <script src=" vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
 
     <!-- Additional Scripts -->
-    <script src="assets/js/custom.js"></script>
-    <script src="assets/js/owl.js"></script>
-    <script src="assets/js/isotope.js"></script>
+    <script src=" assets/js/custom.js "></script>
+    <script src=" assets/js/owl.js "></script>
+    <script src=" assets/js/isotope.js "></script>
 
-    <script language="text/Javascript">
-      cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
-      function clearField(t) {
-        //declaring the array outside of the
-        if (!cleared[t.id]) {
-          // function makes it static and global
-          cleared[t.id] = 1; // you could use true and false, but that's more typing
-          t.value = ""; // with more chance of typos
-          t.style.color = "#fff";
+    <script language=" text/Javascript ">
+        cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
+        function clearField(t) {
+            //declaring the array outside of the
+            if (!cleared[t.id]) {
+                // function makes it static and global
+                cleared[t.id] = 1; // you could use true and false, but that's more typing
+                t.value = " "; // with more chance of typos
+                t.style.color = " #fef3ff ";
+            }
         }
-      }
-    </script> 
-  </body>
+    </script>
+    <script src=" assets/js/modules/products/index.js "></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+</body>
+
 </html>

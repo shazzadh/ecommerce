@@ -1,0 +1,11 @@
+.category-border-color1 {
+    width: 40%;
+    border-bottom: 1px solid #ffa800;
+    float: left;
+}
+
+.category-border-color2 {
+    width: 60%;
+    border-bottom: 1px solid #f5f5f5;
+    float: left;
+}

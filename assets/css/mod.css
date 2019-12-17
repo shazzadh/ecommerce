@@ -2,3 +2,114 @@
     width: 100px;
     height: 50px;
 }
+
+.text-dark {
+    color: black;
+}
+
+.img-magnifier-container {
+    position: relative;
+    transition: 0.1px;
+}
+
+.img-magnifier-glass {
+    position: absolute;
+    border: 1px solid #000;
+    border-radius: 80%;
+    cursor: pointer;
+    margin: auto;
+    /*Set the size of the magnifier glass:*/
+    width: 150px;
+    height: 150px;
+}
+
+
+/* Navbar container */
+
+
+/* Links inside the navbar */
+
+
+/* The dropdown container */
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+
+/* Dropdown button */
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    /* Important for vertical align on mobile phones */
+    margin: 0;
+    /* Important for vertical align on mobile phones */
+}
+
+
+/* Dropdown content (hidden by default) */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
+/* Links inside the dropdown */
+
+
+/*Style for Breadcrumb*/
+
+.breadcrumb {
+    background-color: #fff;
+}
+
+#breadcrumb .breadcrumb li {
+    font-size: 0.9rem;
+}
+
+#breadcrumb .breadcrumb a {
+    color: #777777;
+}
+
+#breadcrumb .breadcrumb .active {
+    color: #ffb209;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    padding-right: 1.5rem;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+
+/* Add a grey background color to dropdown links on hover */
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+
+/* Show the dropdown menu on hover */
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
